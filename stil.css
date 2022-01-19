@@ -1,0 +1,44 @@
+	.sliva {
+		background-color: #DBE2EF;
+  		height: 80%;
+  		width: 96%;
+		border:solid;
+		border-width: 12px;
+		border-color: #112D4E;
+		padding: 15px;
+		margin: 30px;
+		font-size: 1.5em;
+
+	}
+	.sliva-for-c{
+		background-color: #DBE2EF;
+  		height: 80%;
+  		width: 98%;
+		border:solid;
+		border-width: 10px;
+		border-color: #112D4E;
+		padding: 10px;
+		margin: 15px;
+		font-size: 1.5em;
+
+	}
+	
+	.to-right { float: right; }
+	
+	h1, h3 {
+		color: #112D4E;}
+	h3:hover {color: #F05454;}
+	p, strong {color: #112D4E;}
+	footer {
+  	text-align: center;
+  	padding: 5px;
+  	background-color: #DBE2EF;
+  	color: #F05454;
+}
+	.sd {
+		margin: 20 px !important;
+		border: 10 px;
+	}
+img {float: left;}
+div {float: left;}
+
