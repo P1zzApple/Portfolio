@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
 	.sliva {
 		background-color: #DBE2EF;
   		height: 80%;
@@ -6,13 +7,13 @@
 		border-width: 12px;
 		border-color: #112D4E;
 		padding: 15px;
-		margin: 15px;
+		margin: 20px;
 		font-size: 1.5em;
-
+		font-family: Audiowide;
 	}
 	.sliva-for-c{
 		background-color: #DBE2EF;
-  		height: 80%;
+  		height: 90%;
   		width: 98%;
 		border:solid;
 		border-width: 10px;
@@ -20,25 +21,105 @@
 		padding: 10px;
 		margin: 15px;
 		font-size: 1.5em;
+		font-family: Audiowide;
 
 	}
-	
-	.to-right { float: right; }
-	
-	h1, h3 {
-		color: #112D4E;}
-	h3:hover {color: #F05454;}
-	p, strong {color: #112D4E;}
-	footer {
+	.sliva-for-p{
+		background-color: #DBE2EF;
+  		height: 98%;
+  		width: 98%;
+		border:solid;
+		border-width: 12px;
+		border-color: #112D4E;
+		padding: 15px;
+		margin-left: 15px;		
+		font-size: 1.35em;
+		font-family: Audiowide;
+	}
+	@keyframes colorchange{
+    0%{
+        color: white;
+    }
+    10%{
+        color: yellow;
+    }
+    20%{
+        color: greenyellow;
+    }
+    30%{
+        color: lightgreen;
+    }
+    40%{
+        color: orange;
+    }
+    50%{
+        color: coral;
+    }
+    60%{
+        color: red;
+    }
+    70%{
+        color: mediumvioletred;
+    }
+    80%{
+        color: deeppink;
+    }
+    90%{
+        color: pink;
+    }
+    100%{
+        color: grey;
+    }
+}
+.aa{ animation: colorchange 12s reverse infinite;}
+.to-right { float: right; }
+.cardliner {margin: 15px; }
+h1, h3 {color: #112D4E;}
+h3:hover {color: #F05454;}
+p, strong {color: #112D4E;}
+img {float: left;}
+div {float: left;}
+footer {
   	text-align: center;
   	padding: 5px;
   	background-color: #DBE2EF;
   	color: #F05454;
 }
-	.sd {
-		margin: 20 px !important;
-		border: 10 px;
-	}
-img {float: left;}
-div {float: left;}
-
+.sd {
+	margin: 20 px !important;
+	border: 10 px;
+}
+.tptp{
+	font-size: 2em;
+	font-family: Audiowide;
+}
+.scroll_down {
+    position: fixed;
+    right: 0;
+    margin-right: 5%;
+    height: 60px;
+    width: 60px;
+    bottom: 40px;
+    background-color: #DBE2EF;
+    border: 6px solid #112D4E;
+    border-radius: 40px;
+    color: #112D4E;
+    font-size: 1.75em;
+}
+.go-back{
+	padding: 10px;
+	margin: 10px;
+	border-radius: 15px;
+}
+.k-sliva{
+	background-color: #DBE2EF;
+  	height: 80%;
+  	width: 80%;
+	border:solid;
+	border-width: 8px;
+	border-color: #112D4E;
+	padding: 15px;
+	margin: 20px;
+	font-size: 1em;
+	font-family: Audiowide;
+}
